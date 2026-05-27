@@ -7,12 +7,12 @@ type: feature
 priority: high
 complexity: medium
 phase: "2"
-status: todo
+status: done
 labels: [backend, ai]
 epic_branch: epic/PRD-001-football-analytics
-plan: null
-report: null
-commit: null
+plan: .agents/plans/PRD-001-football-analytics/completed/STORY-002-pydantic-ai-agent-setup.plan.md
+report: .agents/reports/PRD-001-football-analytics/STORY-002-pydantic-ai-agent-setup.report.md
+commit: e4a4c23d3f6b0a2b09c5c878f20b948bcc956ee3
 depends_on: [STORY-001]
 blocks: [STORY-003]
 skills: [building-pydantic-ai-agents, fastapi-python]
