@@ -72,7 +72,7 @@
     --sidebar-accent: oklch(0.268 0.011 36.5);
     --sidebar-accent-foreground: oklch(0.986 0.002 67.8);
     --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.547 0.021 43.1);
+    --sidebar-ring: oklch(0.547 0.014 41.2);
 }
 
 @theme inline {
@@ -120,12 +120,29 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
-    }
-  body {
-    @apply bg-background text-foreground;
-    }
+    @apply border-border outline-ring/50 transition-colors duration-200;
+  }
+
   html {
-    @apply font-mono;
-    }
+    @apply scroll-smooth font-mono;
+  }
+
+  body {
+    @apply min-h-screen bg-slate-950 text-slate-100 antialiased;
+  }
+
+  body::before {
+    content: "";
+    @apply fixed inset-x-0 top-0 h-72 bg-gradient-to-b from-cyan-500/20 via-slate-950/0 to-transparent pointer-events-none;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
