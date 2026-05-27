@@ -7,12 +7,12 @@ type: technical
 priority: high
 complexity: small
 phase: "1"
-status: in-progress
+status: done
 labels: [backend, database]
 epic_branch: epic/PRD-001-football-analytics
-plan: .agents/plans/PRD-001-football-analytics/STORY-001-db-schema-setup.plan.md
-report: null
-commit: null
+plan: .agents/plans/PRD-001-football-analytics/completed/STORY-001-db-schema-setup.plan.md
+report: .agents/reports/PRD-001-football-analytics/STORY-001-db-schema-setup.report.md
+commit: 225d2025dccb0af96f963f3db865d1b42781522f
 depends_on: []
 blocks: [STORY-002]
 skills: [fastapi-python]

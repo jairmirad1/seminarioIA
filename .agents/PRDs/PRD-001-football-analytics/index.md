@@ -6,7 +6,7 @@
 
 ## Progress
 
-0/5 stories done — 0%
+1/5 stories done — 20%
 
 ## Stories
 
@@ -14,7 +14,7 @@ All stories commit on the epic branch `epic/PRD-001-football-analytics`. No per-
 
 | ID | Title | Type | Status | Complexity | Plan | Commit |
 |----|-------|------|--------|------------|------|--------|
-| STORY-001 | Setup Database Schema for Football Analytics | technical | 🟡 in-progress | small | [plan](../../plans/PRD-001-football-analytics/STORY-001-db-schema-setup.plan.md) | — |
+| STORY-001 | Setup Database Schema for Football Analytics | technical | ✅ done | small | [plan](../../plans/PRD-001-football-analytics/completed/STORY-001-db-schema-setup.plan.md) | `225d202` |
 | STORY-002 | Setup Pydantic AI Agent for SQL Generation | feature | ⬜ todo | medium | — | — |
 | STORY-003 | Create SQL Generation Endpoint in FastAPI | feature | ⬜ todo | small | — | — |
 | STORY-004 | Create Search Interface with React and shadcn/ui | feature | ⬜ todo | medium | — | — |
