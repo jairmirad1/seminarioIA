@@ -6,7 +6,7 @@
 
 ## Progress
 
-4/5 stories done — 80%
+5/5 stories done — 100%
 
 ## Stories
 
@@ -18,7 +18,7 @@ All stories commit on the epic branch `epic/PRD-001-football-analytics`. No per-
 | STORY-002 | Setup Pydantic AI Agent for SQL Generation | feature | ✅ done | medium | [plan](../../plans/PRD-001-football-analytics/completed/STORY-002-pydantic-ai-agent-setup.plan.md) | `e4a4c23` |
 | STORY-003 | Create SQL Generation Endpoint in FastAPI | feature | ✅ done | small | [plan](../../plans/PRD-001-football-analytics/completed/STORY-003-sql-generation-endpoint.plan.md) | `e4e7a3c` |
 | STORY-004 | Create Search Interface with React and shadcn/ui | feature | ✅ done | medium | [plan](../../plans/PRD-001-football-analytics/completed/STORY-004-search-interface-ui.plan.md) | `02f8144` |
-| STORY-005 | Create SQL Result Panel with Syntax Highlighting | feature | ⬜ todo | small | — | — |
+| STORY-005 | Create SQL Result Panel with Syntax Highlighting | feature | ✅ done | small | [plan](../../plans/PRD-001-football-analytics/completed/STORY-005-sql-result-panel.plan.md) | `7ff7fe4` |
 
 ## Status Icons
 - ⬜ todo
