@@ -1,0 +1,34 @@
+# PRD-001: Football Analytics — Story Board
+
+**PRD**: [PRD.md](./PRD.md)
+**Epic Branch**: `epic/PRD-001-football-analytics` (base: `main`)
+**Status**: active
+
+## Progress
+
+0/5 stories done — 0%
+
+## Stories
+
+All stories commit on the epic branch `epic/PRD-001-football-analytics`. No per-story branches.
+
+| ID | Title | Type | Status | Complexity | Plan | Commit |
+|----|-------|------|--------|------------|------|--------|
+| STORY-001 | Setup Database Schema for Football Analytics | technical | 🟡 in-progress | small | [plan](../../plans/PRD-001-football-analytics/STORY-001-db-schema-setup.plan.md) | — |
+| STORY-002 | Setup Pydantic AI Agent for SQL Generation | feature | ⬜ todo | medium | — | — |
+| STORY-003 | Create SQL Generation Endpoint in FastAPI | feature | ⬜ todo | small | — | — |
+| STORY-004 | Create Search Interface with React and shadcn/ui | feature | ⬜ todo | medium | — | — |
+| STORY-005 | Create SQL Result Panel with Syntax Highlighting | feature | ⬜ todo | small | — | — |
+
+## Status Icons
+- ⬜ todo
+- 🟡 in-progress
+- ✅ done
+- 🔴 blocked
+
+## Dependencies
+
+- STORY-002 blocked by STORY-001
+- STORY-003 blocked by STORY-002
+- STORY-004 blocked by STORY-003
+- STORY-005 blocked by STORY-004
