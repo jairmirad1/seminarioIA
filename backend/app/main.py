@@ -5,6 +5,7 @@ from app.core.config import settings
 from app.core.database import Base, engine
 from app.core.middleware import LoggingMiddleware
 from app.routers import pais as pais_router
+from app.routers import sql_generator as sql_router
 
 Base.metadata.create_all(bind=engine)
 
@@ -25,6 +26,7 @@ app.add_middleware(
 )
 
 app.include_router(pais_router.router, prefix="/api/v1")
+app.include_router(sql_router.router, prefix="/api/v1")
 
 
 @app.get("/health")
