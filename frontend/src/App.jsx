@@ -3,6 +3,7 @@ import RootLayout from "@/layouts/RootLayout"
 import Home from "@/pages/Home"
 import About from "@/pages/About"
 import NotFound from "@/pages/NotFound"
+import FootballAnalytics from "@/pages/FootballAnalytics"
 import Dashboard from "@/pages/dashboard/Dashboard"
 import DashboardHome from "@/pages/dashboard/DashboardHome"
 import Settings from "@/pages/dashboard/Settings"
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route element={<RootLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="analytics" element={<FootballAnalytics />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />}>
             <Route index element={<DashboardHome />} />

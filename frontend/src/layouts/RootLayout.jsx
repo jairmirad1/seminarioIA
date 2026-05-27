@@ -7,6 +7,8 @@ export default function RootLayout() {
         <nav>
           <NavLink to="/" end className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
           {" | "}
+          <NavLink to="/analytics" className={({ isActive }) => isActive ? "active" : ""}>Analytics</NavLink>
+          {" | "}
           <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
           {" | "}
           <NavLink to="/dashboard" className={({ isActive }) => isActive ? "active" : ""}>Dashboard</NavLink>
