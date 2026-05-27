@@ -7,12 +7,12 @@ type: feature
 priority: high
 complexity: small
 phase: "2"
-status: todo
+status: done
 labels: [backend, api]
 epic_branch: epic/PRD-001-football-analytics
-plan: null
-report: null
-commit: null
+plan: .agents/plans/PRD-001-football-analytics/completed/STORY-003-sql-generation-endpoint.plan.md
+report: .agents/reports/PRD-001-football-analytics/STORY-003-sql-generation-endpoint.report.md
+commit: e4e7a3cb9de32fd926da7c18985499a07e7d0e88
 depends_on: [STORY-002]
 blocks: [STORY-004]
 skills: [fastapi-python]
