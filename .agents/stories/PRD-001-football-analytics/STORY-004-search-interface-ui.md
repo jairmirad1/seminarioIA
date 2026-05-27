@@ -7,12 +7,12 @@ type: feature
 priority: medium
 complexity: medium
 phase: "3"
-status: todo
+status: done
 labels: [frontend, ui]
 epic_branch: epic/PRD-001-football-analytics
-plan: null
-report: null
-commit: null
+plan: .agents/plans/PRD-001-football-analytics/completed/STORY-004-search-interface-ui.plan.md
+report: .agents/reports/PRD-001-football-analytics/STORY-004-search-interface-ui.report.md
+commit: 02f81442dab5cde8e6bf76bb942ee253121123ca
 depends_on: [STORY-003]
 blocks: [STORY-005]
 skills: [shadcn, react-router-declarative-mode, vercel-react-best-practices]
