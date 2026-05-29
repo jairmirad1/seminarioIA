@@ -276,7 +276,7 @@ export default function FootballAnalytics() {
         <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-6 shadow-xl flex-1">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-4">Tablas Disponibles</p>
           <ul className="space-y-3">
-            {['equipos', 'jugadores', 'partidos', 'estadisticas'].map(table => (
+            {['equipos', 'jugadores', 'estadisticas'].map(table => (
               <li key={table} className="flex items-center gap-2 text-xs text-slate-400">
                 <span className="h-1.5 w-1.5 rounded-full bg-slate-700" />
                 <code className="bg-slate-900 px-2 py-0.5 rounded text-cyan-300/70">{table}</code>

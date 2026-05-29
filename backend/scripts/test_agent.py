@@ -11,9 +11,11 @@ async def test_agent():
         # We don't exit, maybe it's set via other means or we just want to see the error
     
     prompts = [
-        "¿Cuáles son los equipos de la ciudad de Madrid?",
-        "Lista los 5 jugadores con más goles",
-        "Dime los resultados de los partidos del equipo con id 1"
+        "¿Quiénes son los 3 jugadores más valiosos?",
+        "Lista los jugadores menores de 21 años con su equipo y valor",
+        "Dime el total de goles y asistencias de Lamine Yamal",
+        "¿Qué equipo tiene más jugadores en esta lista?",
+        "Muestra los jugadores con más tarjetas rojas"
     ]
     
     for prompt in prompts:

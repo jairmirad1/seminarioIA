@@ -1,4 +1,4 @@
 from .pais import Pais
-from .football import Equipo, Jugador, Partido, Estadistica
+from .football import Equipo, Jugador, Estadistica
 
-__all__ = ["Pais", "Equipo", "Jugador", "Partido", "Estadistica"]
+__all__ = ["Pais", "Equipo", "Jugador", "Estadistica"]

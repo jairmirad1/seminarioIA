@@ -1,10 +1,10 @@
 import os
 from sqlalchemy.schema import CreateTable
 from sqlalchemy.dialects import postgresql
-from app.models.football import Equipo, Jugador, Partido, Estadistica
+from app.models.football import Equipo, Jugador, Estadistica
 
 def generate_ddl():
-    tables = [Equipo.__table__, Jugador.__table__, Partido.__table__, Estadistica.__table__]
+    tables = [Equipo.__table__, Jugador.__table__, Estadistica.__table__]
     ddl_statements = []
     
     for table in tables:

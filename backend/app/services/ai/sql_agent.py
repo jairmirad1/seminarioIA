@@ -27,8 +27,10 @@ SYSTEM_INSTRUCTIONS = (
     "3. Utiliza ÚNICAMENTE las tablas y columnas definidas en el esquema proporcionado a continuación.\n"
     "4. Si la pregunta no se puede responder con el esquema proporcionado, explica por qué.\n"
     "5. La explicación debe ser breve, profesional y en español.\n"
-    "6. El esquema utiliza una estructura relacional con tablas: 'equipos', 'jugadores', 'partidos' y 'estadisticas'.\n"
-    "7. REGLA CRÍTICA PARA GENERACIÓN DE SQL: Siempre que una consulta involucre tablas con claves foráneas (como equipo_id, equipo_local_id, equipo_visitante_id o jugador_id), DEBES USAR SIEMPRE operaciones JOIN para devolver los nombres reales legibles (ej. equipos.nombre o jugadores.nombre_completo) en lugar de los IDs numéricos brutos. Nunca devuelvas un SELECT con números de claves foráneas a menos que se soliciten explícitamente.\n\n"
+    "6. El esquema utiliza una estructura relacional con tablas: 'equipos', 'jugadores' y 'estadisticas'.\n"
+    "7. REGLA CRÍTICA PARA GENERACIÓN DE SQL: Siempre que una consulta involucre tablas con claves foráneas (como equipo_id o jugador_id), DEBES USAR SIEMPRE operaciones JOIN para devolver los nombres reales legibles (ej. equipos.nombre o jugadores.nombre_completo) en lugar de los IDs numéricos brutos. Nunca devuelvas un SELECT con números de claves foráneas a menos que se soliciten explícitamente.\n"
+    "8. Columnas importantes en 'jugadores': 'nombre_completo', 'edad', 'posicion', 'valor_mercado_millones'.\n"
+    "9. Columnas en 'estadisticas' (agregadas por jugador): 'alineaciones', 'goles', 'asistencias', 'tarjetas_amarillas', 'tarjetas_rojas'.\n\n"
     f"ESQUEMA DE LA BASE DE DATOS:\n{load_schema()}"
 )
 
